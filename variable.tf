@@ -9,3 +9,6 @@ variable "instance_type" {
 variable "instance_name" {
   default = "FirstTerraformEC2"
 }
+variable "bucket_name" {
+  default = "my-bucket-terraform"
+}
